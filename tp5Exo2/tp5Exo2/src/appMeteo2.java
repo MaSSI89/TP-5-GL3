@@ -1,10 +1,10 @@
-public class appMeteo2 implements aggregInterface {
+public class appMeteo2 {
     
     public double toFenhrenhait (double temperatureCelsius){
         return (temperatureCelsius * 1.8) + 32;
     }
 
-    public double getTemperatue(){
+    public double getTemperatureFahrenheit(){
         return 77;
     }
 }
